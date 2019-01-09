@@ -1,0 +1,26 @@
+{
+  "name": "cloud-function-tests",
+  "version": "0.0.1",
+  "description": "Examples of Cloud Functions to be run in GCP by SoulCycle engineers",
+  "contributors": [
+    {
+      "name": "Mark Sost",
+      "email": "mark.sost@soul-cycle.com"
+    }
+  ],
+  "private": true,
+  "homepage": "https://github.com/marksost/sc-cf-examples#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksost/sc-cf-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marksost/sc-cf-examples/issues"
+  },
+  "dependencies": {
+    "@google-cloud/kms": "^0.2.0",
+    "winston": "~3.0.0",
+    "winston-transport": "^4.2.0"
+  },
+  "devDependencies": {}
+}
